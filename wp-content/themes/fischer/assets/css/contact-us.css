@@ -1,0 +1,124 @@
+.fischer-contact-us {
+  margin-top: 150px;
+  margin-bottom: 158px;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-contact-us {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fischer-contact-us {
+    margin-top: 50px;
+  }
+}
+.fischer-contact-us .container h1 {
+  font-family: "poiret one";
+  font-size: 96px;
+}
+@media screen and (max-width: 768px) {
+  .fischer-contact-us .container h1 {
+    font-size: 56px;
+  }
+}
+.fischer-contact-us .container .inner-container {
+  margin-top: 134px;
+  display: flex;
+  align-items: center;
+  gap: 91px;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-contact-us .container .inner-container {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fischer-contact-us .container .inner-container {
+    margin-top: 50px;
+  }
+}
+.fischer-contact-us .container .inner-container .image-wrapper {
+  flex-basis: 50%;
+}
+.fischer-contact-us .container .inner-container .image-wrapper img {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-contact-us .container .inner-container .image-wrapper img {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+.fischer-contact-us .container .inner-container .form-wrapper {
+  flex-basis: 50%;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-contact-us .container .inner-container .form-wrapper {
+    width: 100%;
+  }
+}
+.fischer-contact-us .container .inner-container .form-wrapper p label {
+  font-family: "syne";
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 25px;
+}
+.fischer-contact-us .container .inner-container .form-wrapper p label input,
+.fischer-contact-us .container .inner-container .form-wrapper p label textarea {
+  border-radius: 50px;
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+  border: 2px solid #FFAB00;
+  padding-left: 20px;
+}
+.fischer-contact-us .container .inner-container .form-wrapper p label textarea {
+  padding-top: 10px;
+}
+.fischer-contact-us .container .inner-container .form-wrapper p input[type=submit] {
+  font-family: "syne";
+  font-size: 16px;
+  background-color: #FFAB00;
+  border-radius: 50px;
+  width: 100%;
+  border: 2px solid #FFAB00;
+  margin-top: 25px;
+  height: 50px;
+}
+.fischer-contact-us .container .inner-container .form-wrapper .wpcf7-response-output {
+  font-family: "syne";
+  font-size: 16px;
+  border: 2px solid #FFAB00;
+  background-color: #FFAB00;
+  margin: 0;
+  width: 100%;
+  border-radius: 50px;
+  text-align: center;
+}
+.fischer-contact-us .container .address-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 134px;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-contact-us .container .address-container {
+    flex-wrap: wrap;
+  }
+}
+.fischer-contact-us .container .address-container div {
+  padding-block: 25px;
+  padding-left: 15px;
+  border-left: 2px solid black;
+}
+.fischer-contact-us .container .address-container div p {
+  font-family: "poppins";
+  font-size: 20px;
+  margin-top: 18px;
+  font-weight: 200;
+}
+
+/*# sourceMappingURL=contact-us.css.map */

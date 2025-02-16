@@ -1,0 +1,183 @@
+.fischer-about-us {
+    .container {
+        margin-top: 150px;
+        margin-bottom: 118px;
+
+        @media screen and (max-width: 1024px) {
+            margin-top: 100px;
+        }
+
+        @media screen and (max-width: 640px) {
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-family: 'poiret one';
+            font-size: 96px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 56px;
+            }
+        }
+
+        .content {
+            p {
+                font-size: 24px;
+                font-family: 'poiret one';
+                line-height: 33px;
+                color: black;
+                margin-top: 30px;
+                -webkit-text-stroke: 1px black;
+                letter-spacing: 1.5px;
+            }
+        }
+
+        .quote {
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-top: 80px;
+
+
+            p {
+                font-size: 34px;
+                font-family: 'serif';
+                line-height: 33px;
+                color: black;
+                text-align: center;
+                padding-block: 40px;
+                padding-inline: 15px;
+
+                @media screen and (max-width: 640px) {
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .courses {
+            margin-top: 150px;
+
+            @media screen and (max-width: 640px) {
+                margin-top: 80px;
+            }
+
+            .title {
+                font-size: 60px;
+                font-family: 'poiret one';
+                line-height: 33px;
+                color: black;
+                margin-top: 80px;
+                text-align: center;
+
+                @media screen and (max-width: 640px) {
+                    font-size: 50px;
+                }
+            }
+
+            .wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                margin-top: 70px;
+
+                @media screen and (max-width: 540px) {
+                    flex-direction: column;
+                }
+
+                .inner-wrapper {
+
+                    img {
+                        border: 1px solid black;
+                        max-width: 200px;
+                        width: 100%;
+                        border-radius: 100px;
+                        aspect-ratio: 1;
+                    }
+
+                    p {
+                        font-size: 24px;
+                        font-family: 'poiret one';
+                        line-height: 33px;
+                        color: black;
+                        margin-top: 30px;
+                        -webkit-text-stroke: 1px black;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .coaches {
+            margin-top: 150px;
+
+            @media screen and (max-width: 640px) {
+                margin-top: 80px;
+            }
+
+            h5 {
+                font-size: 60px;
+                font-family: 'poiret one';
+                line-height: 33px;
+                color: black;
+                margin-top: 80px;
+                text-align: center;
+
+                @media screen and (max-width: 640px) {
+                    font-size: 50px;
+                }
+
+            }
+
+            .wrapper {
+                margin-top: 100px;
+                display: grid;
+                grid-template-columns: repeat(2, 400px);
+                gap: 20px;
+                place-content: center;
+
+
+
+                @media screen and (max-width: 1024px) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                @media screen and (max-width: 640px) {
+                    grid-template-columns: repeat(1, 1fr);
+                    margin-top: 50px;
+                }
+
+                .inner-wrapper {
+                    border: 2px solid #ffab00;
+                    padding-block: 40px;
+                    padding-inline: 40px;
+                    border-radius: 20px;
+
+                    @media screen and (max-width: 640px) {
+                        padding-inline: 15px;
+                    }
+
+                    .title {
+                        font-size: 20px;
+                        font-family: 'poppins';
+                        line-height: 33px;
+                        color: black;
+                        -webkit-text-stroke: 1px black;
+                        text-align: center;
+                    }
+
+                    .description {
+                        font-size: 16px;
+                        font-family: 'poppins';
+                        font-weight: 200;
+                        line-height: 24px;
+                        color: black;
+                        margin-top: 10px;
+                        -webkit-text-stroke: 1px black;
+                        text-align: center;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}

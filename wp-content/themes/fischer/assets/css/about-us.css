@@ -1,0 +1,171 @@
+.fischer-about-us .container {
+  margin-top: 150px;
+  margin-bottom: 118px;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-about-us .container {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .fischer-about-us .container {
+    margin-top: 50px;
+  }
+}
+.fischer-about-us .container h1 {
+  font-family: "poiret one";
+  font-size: 96px;
+}
+@media screen and (max-width: 768px) {
+  .fischer-about-us .container h1 {
+    font-size: 56px;
+  }
+}
+.fischer-about-us .container .content p {
+  font-size: 24px;
+  font-family: "poiret one";
+  line-height: 33px;
+  color: black;
+  margin-top: 30px;
+  -webkit-text-stroke: 1px black;
+  letter-spacing: 1.5px;
+}
+.fischer-about-us .container .quote {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+.fischer-about-us .container .quote p {
+  font-size: 34px;
+  font-family: "serif";
+  line-height: 33px;
+  color: black;
+  text-align: center;
+  padding-block: 40px;
+  padding-inline: 15px;
+}
+@media screen and (max-width: 640px) {
+  .fischer-about-us .container .quote p {
+    font-size: 26px;
+  }
+}
+.fischer-about-us .container .courses {
+  margin-top: 150px;
+}
+@media screen and (max-width: 640px) {
+  .fischer-about-us .container .courses {
+    margin-top: 80px;
+  }
+}
+.fischer-about-us .container .courses .title {
+  font-size: 60px;
+  font-family: "poiret one";
+  line-height: 33px;
+  color: black;
+  margin-top: 80px;
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .fischer-about-us .container .courses .title {
+    font-size: 50px;
+  }
+}
+.fischer-about-us .container .courses .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 540px) {
+  .fischer-about-us .container .courses .wrapper {
+    flex-direction: column;
+  }
+}
+.fischer-about-us .container .courses .wrapper .inner-wrapper img {
+  border: 1px solid black;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 100px;
+  aspect-ratio: 1;
+}
+.fischer-about-us .container .courses .wrapper .inner-wrapper p {
+  font-size: 24px;
+  font-family: "poiret one";
+  line-height: 33px;
+  color: black;
+  margin-top: 30px;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+}
+.fischer-about-us .container .coaches {
+  margin-top: 150px;
+}
+@media screen and (max-width: 640px) {
+  .fischer-about-us .container .coaches {
+    margin-top: 80px;
+  }
+}
+.fischer-about-us .container .coaches h5 {
+  font-size: 60px;
+  font-family: "poiret one";
+  line-height: 33px;
+  color: black;
+  margin-top: 80px;
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .fischer-about-us .container .coaches h5 {
+    font-size: 50px;
+  }
+}
+.fischer-about-us .container .coaches .wrapper {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 20px;
+  place-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-about-us .container .coaches .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 640px) {
+  .fischer-about-us .container .coaches .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px;
+  }
+}
+.fischer-about-us .container .coaches .wrapper .inner-wrapper {
+  border: 2px solid #ffab00;
+  padding-block: 40px;
+  padding-inline: 40px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 640px) {
+  .fischer-about-us .container .coaches .wrapper .inner-wrapper {
+    padding-inline: 15px;
+  }
+}
+.fischer-about-us .container .coaches .wrapper .inner-wrapper .title {
+  font-size: 20px;
+  font-family: "poppins";
+  line-height: 33px;
+  color: black;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+}
+.fischer-about-us .container .coaches .wrapper .inner-wrapper .description {
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 200;
+  line-height: 24px;
+  color: black;
+  margin-top: 10px;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=about-us.css.map */
