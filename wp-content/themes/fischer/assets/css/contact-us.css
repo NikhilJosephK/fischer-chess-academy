@@ -11,6 +11,7 @@
 .fischer-contact-us .container h1 {
   font-family: "poiret one";
   font-size: 96px;
+  font-weight: 300;
 }
 @media screen and (max-width: 768px) {
   .fischer-contact-us .container h1 {
@@ -60,15 +61,23 @@
   text-transform: uppercase;
   width: 100%;
   margin-top: 25px;
+  display: flex;
+  flex-direction: column;
 }
 .fischer-contact-us .container .inner-container .form-wrapper p label input,
 .fischer-contact-us .container .inner-container .form-wrapper p label textarea {
   border-radius: 50px;
-  width: 100%;
+  width: 95%;
   margin-top: 10px;
   height: 50px;
   border: 2px solid #FFAB00;
   padding-left: 20px;
+}
+@media screen and (max-width: 640px) {
+  .fischer-contact-us .container .inner-container .form-wrapper p label input,
+  .fischer-contact-us .container .inner-container .form-wrapper p label textarea {
+    width: 94%;
+  }
 }
 .fischer-contact-us .container .inner-container .form-wrapper p label textarea {
   padding-top: 10px;
@@ -82,6 +91,7 @@
   border: 2px solid #FFAB00;
   margin-top: 25px;
   height: 50px;
+  margin-inline: auto;
 }
 .fischer-contact-us .container .inner-container .form-wrapper .wpcf7-response-output {
   font-family: "syne";
@@ -114,6 +124,11 @@
   font-size: 20px;
   margin-top: 18px;
   font-weight: 200;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-contact-us .container .address-container div p {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=contact-us.css.map */
