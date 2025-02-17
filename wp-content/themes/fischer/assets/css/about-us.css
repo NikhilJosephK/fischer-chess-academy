@@ -11,6 +11,7 @@
   font-family: "poiret one";
   font-size: 96px;
   -webkit-text-stroke: 0;
+  font-weight: 300;
 }
 @media screen and (max-width: 768px) {
   .fischer-about-us .container h1 {
