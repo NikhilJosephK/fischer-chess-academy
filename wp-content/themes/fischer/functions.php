@@ -66,8 +66,6 @@ add_action('after_setup_theme', 'fischertheme_setup');
 // CSS Starts here
 function load_css()
 {
-    wp_register_style('bootstrap', get_template_directory_uri() . '/css/assets/bootstrap/bootstrap.min.css', array(), false, 'all');
-    wp_enqueue_style('bootstrap');
 
     // load main.css for all pages eg: header.php footer.php etc or we can have seperate files for header and footer
     wp_register_style('main', get_template_directory_uri() . '/assets/css/main.css', array(), false, 'all');
@@ -100,9 +98,6 @@ function load_js()
 {
     //  this line will automatically add all the jquery files needed automatically no need of js folders or files
     wp_enqueue_script('jquery');
-
-    wp_register_script('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.js', 'jquery', false, true);
-    wp_enqueue_script('bootstrap');
 
     //main.js
     wp_register_script('main', get_template_directory_uri() . '/js/main.js', 'jquery', false, true);

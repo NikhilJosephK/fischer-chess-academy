@@ -45,6 +45,5 @@ if (document.querySelector('.fischer-achievements')) {
             }
         });
 
-
     })();
 }
