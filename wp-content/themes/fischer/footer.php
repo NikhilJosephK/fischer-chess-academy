@@ -1,6 +1,5 @@
 <section class="fischer-footer">
     <div class="container">
-
         <div class="left-container">
             <a href="/">Fischer <br /> Chess Academy</a>
         </div>
@@ -25,7 +24,10 @@
             </div>
         </div>
     </div>
-
+    <div class="wizgrowth">
+        <p>Made with love</p>
+        <a href="https://wizgrowth.com">WizGrowth</a>
+    </div>
 
 </section>
 

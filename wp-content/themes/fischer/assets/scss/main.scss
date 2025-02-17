@@ -232,13 +232,31 @@ a {
 
 .fischer-footer {
     background-color: #2C2C2C;
-    padding-block: 157px;
 
-    @media screen and (max-width: 1024px) {
-        padding-block: 100px;
+    .wizgrowth {
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        p {
+            font-family: 'poiret one';
+            font-size: 18px;
+            color: white;
+        }
+
+        a {
+            display: block;
+            font-family: 'poiret one';
+            font-size: 18px;
+            color: #16876b;
+
+        }
     }
 
     .container {
+        padding-block: 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
