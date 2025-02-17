@@ -13,7 +13,7 @@
                 <a href="/contact-us/">Contact us</a>
             </div>
             <div class="right-container">
-                <img src="/wp-content/themes/fischer/assets/images/front-page/fischer-hero-image.png" alt="">
+                <img src="/wp-content/themes/fischer/assets/images/front-page/fischer-hero-image.png" alt="banner image">
             </div>
         </div>
         <!-- section-2 -->
@@ -71,10 +71,10 @@
                     <div>
                         <h3>PASSION</h3>
                         <p>Fischer Chess Academy have coaches
-                            who are passionate about game. Along with the great experience in teaching</p>
+                            who are passionate about game. Along with the great experience in teaching.</p>
                     </div>
                     <div>
-                        <img src="/wp-content/themes/fischer/assets/images/front-page/passion.png" alt="">
+                        <img src="/wp-content/themes/fischer/assets/images/front-page/passion.png" alt="passion">
                     </div>
                 </div>
                 <div class="zigzag">
@@ -83,7 +83,7 @@
                         <p>This program is design in such way that each & every kind of student can grab the beautiful concepts of this game.</p>
                     </div>
                     <div>
-                        <img src="/wp-content/themes/fischer/assets/images/front-page/uniqueness.png" alt="">
+                        <img src="/wp-content/themes/fischer/assets/images/front-page/uniqueness.png" alt="uniqueness">
                     </div>
                 </div>
                 <div class="zigzag">
@@ -92,7 +92,7 @@
                         <p>Academy kept positive result from years with a standard format of teaching.</p>
                     </div>
                     <div>
-                        <img src="/wp-content/themes/fischer/assets/images/front-page/identity.png" alt="">
+                        <img src="/wp-content/themes/fischer/assets/images/front-page/identity.png" alt="consistency">
                     </div>
                 </div>
             </div>

@@ -7,11 +7,6 @@
     margin-top: 100px;
   }
 }
-@media screen and (max-width: 640px) {
-  .fischer-front-page .container {
-    margin-top: 50px;
-  }
-}
 .fischer-front-page .container .hero {
   display: flex;
   align-items: center;
@@ -43,6 +38,7 @@
   -webkit-text-stroke: 1px black;
   padding-right: 50px;
   margin-top: 10px;
+  letter-spacing: 1px;
 }
 @media screen and (max-width: 1024px) {
   .fischer-front-page .container .hero .left-container p {
@@ -66,11 +62,15 @@
   font-size: 20px;
   font-weight: 700;
   margin-top: 40px;
+  transition: all 300ms;
 }
 @media screen and (max-width: 1024px) {
   .fischer-front-page .container .hero .left-container a {
     margin-inline: auto;
   }
+}
+.fischer-front-page .container .hero .left-container a:hover {
+  opacity: 0.8;
 }
 .fischer-front-page .container .hero .right-container img {
   width: 532px;
@@ -93,8 +93,7 @@
   font-family: "syne";
   font-size: 25px;
   font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 5px;
+  border-bottom: 1px solid black;
 }
 @media screen and (max-width: 640px) {
   .fischer-front-page .container .section-2 h2 {
@@ -205,8 +204,7 @@
   font-family: "syne";
   font-size: 25px;
   font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 5px;
+  border-bottom: 1px solid black;
 }
 @media screen and (max-width: 640px) {
   .fischer-front-page .container .section-3 h2 {
@@ -232,6 +230,7 @@
   font-family: "poiret one";
   font-size: 35px;
   color: black;
+  letter-spacing: 1px;
   -webkit-text-stroke: 2px black;
 }
 @media screen and (max-width: 1024px) {
@@ -250,6 +249,8 @@
   font-size: 24px;
   color: black;
   line-height: 33px;
+  -webkit-text-stroke: 0.9px;
+  letter-spacing: 1px;
 }
 @media screen and (max-width: 1024px) {
   .fischer-front-page .container .section-3 .zigzag-container .zigzag div p {

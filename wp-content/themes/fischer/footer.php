@@ -24,10 +24,10 @@
             </div>
         </div>
     </div>
-    <div class="wizgrowth">
+    <!-- <div class="wizgrowth">
         <p>Made with love</p>
-        <a href="https://wizgrowth.com">WizGrowth</a>
-    </div>
+        <a href="https://wizgrowth.com">WizGrowth.</a>
+    </div> -->
 
 </section>
 

@@ -8,11 +8,6 @@
     margin-bottom: 80px;
   }
 }
-@media screen and (max-width: 768px) {
-  .fischer-contact-us {
-    margin-top: 50px;
-  }
-}
 .fischer-contact-us .container h1 {
   font-family: "poiret one";
   font-size: 96px;

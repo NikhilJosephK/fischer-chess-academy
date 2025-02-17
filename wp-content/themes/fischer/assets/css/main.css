@@ -78,6 +78,10 @@ a {
   font-family: "syne";
   font-size: 16px;
   font-weight: 500;
+  transition: all 300ms;
+}
+.fischer-nav > .container .nav-items a:hover {
+  transform: scale(0.9);
 }
 
 .fischer-nav-mob {
@@ -227,6 +231,8 @@ a {
   font-family: "poiret one";
   font-size: 18px;
   color: #16876b;
+  -webkit-text-stroke: 1px;
+  letter-spacing: 1px;
 }
 .fischer-footer .container {
   padding-block: 100px;
