@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/uwur1d34tdkp/public_html/wp-content/themes/
-    - /bin/cp -R wp-content/themes/mytheme $DEPLOYPATH
+    - /bin/cp -R wp-content/themes/fischer $DEPLOYPATH
