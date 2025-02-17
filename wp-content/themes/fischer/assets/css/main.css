@@ -64,6 +64,7 @@ a {
   top: 70px;
   left: 50%;
   z-index: 100000;
+  width: 100%;
 }
 .fischer-nav > .container .nav-items {
   display: flex;
