@@ -4,6 +4,7 @@ Template Name: Achievements
 */
 ?>
 <?php get_header(); ?>
+<!--  search 23 in the file and change it to 25 to work in local (post id) -->
 <section class="fischer-achievements">
     <div class="container">
         <h1>
