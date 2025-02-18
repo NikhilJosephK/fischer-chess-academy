@@ -91,7 +91,7 @@ Template Name: Achievements
             }
 
             // Usage
-            echo display_post_images_as_gallery(25);
+            echo display_post_images_as_gallery(23);
             ?>
         </div>
         <div class="button-container">
