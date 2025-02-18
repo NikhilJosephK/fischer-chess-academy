@@ -130,6 +130,7 @@
   color: #FFAB00;
   width: max-content;
   margin-inline: auto;
+  margin-top: 0 !important;
 }
 .fischer-front-page .container .section-2 .bento-grid .bento-grid-container-one .image-container img {
   width: 488px;
@@ -152,6 +153,7 @@
   color: #FFAB00;
   width: max-content;
   margin-inline: auto;
+  margin-top: 0;
 }
 .fischer-front-page .container .section-2 .bento-grid .bento-grid-container-two .image-container img {
   width: 229px;
@@ -186,6 +188,7 @@
   font-family: "poiret one";
   font-size: 28px;
   color: #FFAB00;
+  margin-top: 0;
 }
 @media screen and (max-width: 640px) {
   .fischer-front-page .container .section-2 .normal-grid div p {

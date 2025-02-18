@@ -137,6 +137,7 @@
                             color: #FFAB00;
                             width: max-content;
                             margin-inline: auto;
+                            margin-top: 0 !important;
                         }
 
                         img {
@@ -163,6 +164,7 @@
                             color: #FFAB00;
                             width: max-content;
                             margin-inline: auto;
+                            margin-top: 0;
                         }
 
                         img {
@@ -200,6 +202,7 @@
                         font-family: 'poiret one';
                         font-size: 28px;
                         color: #FFAB00;
+                        margin-top: 0;
 
                         @media screen and (max-width: 640px) {
                             font-size: 24px;
