@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Achievements
+Template Name: Hello world
 */
 ?>
 <?php get_header(); ?>
