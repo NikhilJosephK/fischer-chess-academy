@@ -19,6 +19,9 @@ if (document.querySelector('.fischer-achievements')) {
         let start_limit = 0;
         let end_limit = 9;
         function displayCards(limitOne, limitTwo) {
+            if (gallery_items.length <= 9) {
+                next_button.style.display = 'none'
+            }
             gallery_items.forEach((item, index) => {
                 if (start_limit <= 0) {
                     previous_button.style.display = "none";
