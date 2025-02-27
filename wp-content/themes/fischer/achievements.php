@@ -91,7 +91,7 @@ Template Name: Achievements
                 }
             }
 
-            // Usage
+            // Usage (change it to 23 for production and 25 for local development)
             echo display_post_images_as_gallery(23);
             ?>
         </div>
@@ -102,6 +102,10 @@ Template Name: Achievements
             <button class="next" type="button">
                 <img data-next="next" src="/wp-content/themes/fischer/assets/images/achievements/fischer-next-arrow.svg" alt="Right Arrow">
             </button>
+        </div>
+
+        <div class="more-container">
+            <a href="https://www.instagram.com/fischerchessindia/?hl=en">Click here to see more achievements of our students</a>
         </div>
 
 
