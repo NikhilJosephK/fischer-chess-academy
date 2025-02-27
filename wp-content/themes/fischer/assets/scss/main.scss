@@ -77,6 +77,13 @@ a {
             justify-content: center;
             align-items: center;
             gap: 40px;
+            position: relative;
+
+            img {
+                position: absolute;
+                left: -10px;
+                width: 52px;
+            }
 
             a {
                 text-decoration: none;

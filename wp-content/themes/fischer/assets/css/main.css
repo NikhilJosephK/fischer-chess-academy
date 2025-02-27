@@ -71,6 +71,12 @@ a {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  position: relative;
+}
+.fischer-nav > .container .nav-items img {
+  position: absolute;
+  left: -10px;
+  width: 52px;
 }
 .fischer-nav > .container .nav-items a {
   text-decoration: none;

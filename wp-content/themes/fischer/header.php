@@ -17,6 +17,7 @@
     <section class="fischer-nav">
         <div class="container">
             <div class="nav-items">
+                <img src="/wp-content/themes/fischer/assets/images/header/fischer-logo-header.png" alt="fischer logo">
                 <a href="/">HOME</a>
                 <a href="/about-us/">ABOUT</a>
                 <a href="/achievements/">ACHIEVEMENTS</a>
