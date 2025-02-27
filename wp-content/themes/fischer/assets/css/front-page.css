@@ -282,5 +282,125 @@
     flex-direction: column;
   }
 }
+.fischer-front-page .container .section-4 {
+  margin-top: 132px;
+}
+@media screen and (max-width: 640px) {
+  .fischer-front-page .container .section-4 {
+    margin-top: 80px;
+  }
+}
+.fischer-front-page .container .section-4 h2 {
+  font-family: "syne";
+  font-size: 25px;
+  font-weight: 800;
+  border-bottom: 1px solid black;
+}
+@media screen and (max-width: 640px) {
+  .fischer-front-page .container .section-4 h2 {
+    text-align: center;
+  }
+}
+.fischer-front-page .container .section-4 .book-wrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fischer-front-page .container .section-4 .book-wrapper .book {
+  background-image: url("/wp-content/themes/fischer/assets/images/front-page/fischer-book-front.jpeg");
+  width: 10em;
+  height: 15em;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  animation: spin 8s linear infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.fischer-front-page .container .section-4 .book-wrapper .book:before {
+  background-color: black;
+  position: absolute;
+  content: "";
+  height: 15em;
+  width: 10em;
+  -webkit-transform: translateZ(-0.75em);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fischer-front-page .container .section-4 .book-wrapper .book:after {
+  background-color: black;
+  content: "";
+  left: 4.25em;
+  position: absolute;
+  height: 15em;
+  width: 0.75em;
+  z-index: -10;
+  -webkit-transform: rotateY(-90deg);
+  -webkit-transform-origin: 100% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fischer-front-page .container .section-4 .book-wrapper .book .front {
+  background-color: black;
+  position: absolute;
+  content: "";
+  height: 15em;
+  width: 10em;
+  -webkit-transform: translateZ(-0.005em);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fischer-front-page .container .section-4 .book-wrapper .book .back {
+  background-image: url("/wp-content/themes/fischer/assets/images/front-page/fischer-book-back.jpeg");
+  position: absolute;
+  content: "";
+  height: 15em;
+  width: 10em;
+  -webkit-transform: translateZ(-0.755em);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fischer-front-page .container .section-4 .book-wrapper p {
+  margin-top: 50px;
+  font-family: "poiret one";
+  font-size: 24px;
+  color: black;
+  line-height: 33px;
+  -webkit-text-stroke: 0.9px;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-front-page .container .section-4 .book-wrapper p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .fischer-front-page .container .section-4 .book-wrapper p {
+    font-size: 20px;
+  }
+}
+.fischer-front-page .container .section-4 .book-wrapper a {
+  margin-top: 26px;
+  font-family: "poppins";
+  font-size: 20px;
+  color: black;
+  line-height: 33px;
+  letter-spacing: 1px;
+  background-color: #FFAB00;
+  padding: 15px 25px;
+  border-radius: 50px;
+  transition: all 300ms;
+}
+.fischer-front-page .container .section-4 .book-wrapper a:hover {
+  opacity: 0.8;
+}
 
 /*# sourceMappingURL=front-page.css.map */
