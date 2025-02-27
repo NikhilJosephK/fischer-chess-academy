@@ -40,6 +40,7 @@ Template Name: About Us
 
             <div class="wrapper">
                 <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/Amol Markanday.jpeg" alt="">
                     <p class="title">
                         AMOL MARKANDAY (Founder)
                     </p>
@@ -49,6 +50,7 @@ Template Name: About Us
                     </p>
                 </div>
                 <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/Mandar Shiraskar.jpeg" alt="MANDAR SHIRASKAR (STATE PLAYER)">
                     <p class="title">
                         MANDAR SHIRASKAR (STATE PLAYER)
                     </p>
@@ -66,15 +68,7 @@ Template Name: About Us
                     </p>
                 </div>
                 <div class="inner-wrapper">
-                    <p class="title">
-                        SARTH CHARI
-                    </p>
-                    <p class="description">
-                        EXPERT TO TEACH FOR BASIC AND INTERMEDIATE
-                        3 YEAR OF EXPERIENCE
-                    </p>
-                </div>
-                <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/Yogesh Bane.jpeg" alt="YOGESH BANE">
                     <p class="title">
                         YOGESH BANE
                     </p>
@@ -84,6 +78,7 @@ Template Name: About Us
                     </p>
                 </div>
                 <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/Gaurav K. Laigude.jpeg" alt="GAURAV LAIGUDE">
                     <p class="title">
                         GAURAV LAIGUDE
                     </p>
@@ -101,15 +96,7 @@ Template Name: About Us
                     </p>
                 </div>
                 <div class="inner-wrapper">
-                    <p class="title">
-                        AJAY BHARADWAJ
-                    </p>
-                    <p class="description">
-                        FIDE INTERNATIONAL RATED
-                        5 YEARS OF COACHING EXPERIENCE
-                    </p>
-                </div>
-                <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/Ravindra Bawlekar.jpeg" alt="RAVINDRA BAWLEKAR">
                     <p class="title">
                         RAVINDRA BAWLEKAR
                     </p>
@@ -119,38 +106,12 @@ Template Name: About Us
                     </p>
                 </div>
                 <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/Kuldeep Dhas.jpeg" alt="KULDEEP DHAS">
                     <p class="title">
                         KULDEEP DHAS
                     </p>
                     <p class="description">
                         EXPERT TO TEACH FOR BASIC 2 YEAR OF EXPERIENCE
-                    </p>
-                </div>
-                <div class="inner-wrapper">
-                    <p class="title">
-                        SUNIL DATIR
-                    </p>
-                    <p class="description">
-                        EXPERT TO TEACH FOR BASIC AND INTERMEDIATE
-                        4 YEARS OF EXPERIENCE
-                    </p>
-                </div>
-                <div class="inner-wrapper">
-                    <p class="title">
-                        SATISH TIWARI
-                    </p>
-                    <p class="description">
-                        EXPERT FOR ABSOLUTE BEGINNER AND BASIC COACHING FOR KID
-                        3 YEAR COACHNING EXPERIENCE
-                    </p>
-                </div>
-                <div class="inner-wrapper">
-                    <p class="title">
-                        RAJESH KULKARNI
-                    </p>
-                    <p class="description">
-                        EXPERT TO TEACH FOR BASIC AND INTERMEDIATE
-                        3 YEAR OF EXPERIENCE
                     </p>
                 </div>
                 <div class="inner-wrapper">

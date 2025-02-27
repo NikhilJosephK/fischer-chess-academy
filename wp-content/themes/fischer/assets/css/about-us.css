@@ -139,11 +139,22 @@
   padding-block: 40px;
   padding-inline: 40px;
   border-radius: 20px;
+  display: grid;
+  place-content: center;
 }
 @media screen and (max-width: 640px) {
   .fischer-about-us .container .coaches .wrapper .inner-wrapper {
     padding-inline: 15px;
   }
+}
+.fischer-about-us .container .coaches .wrapper .inner-wrapper img {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 20px;
+  margin-inline: auto;
+  display: flex;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 .fischer-about-us .container .coaches .wrapper .inner-wrapper .title {
   font-size: 20px;
@@ -152,6 +163,7 @@
   color: black;
   -webkit-text-stroke: 1px black;
   text-align: center;
+  margin-top: 0;
 }
 .fischer-about-us .container .coaches .wrapper .inner-wrapper .description {
   font-size: 16px;
