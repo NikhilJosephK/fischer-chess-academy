@@ -6,9 +6,14 @@
         <div class="right-container">
             <div class="address">
                 <h3><strong>Address</strong></h3>
-                <p>Kharghar,<br />
-                    Navi Mumbai<br />
-                    Maharashtra-410210
+                <p>Kharghar Center,<br />
+                    1st Floor, Prime Mall,<br />
+                    Sector 12, Navi Mumbai - 410210
+                </p>
+                <p>Nerul Center,<br />
+                    Shop No. A 105, 1st Floor,<br />
+                    Railway Stations Complex, Nerul East<br />
+                    Sector 21, Navi Mumbai - 400706
                 </p>
             </div>
             <div class="contact">
