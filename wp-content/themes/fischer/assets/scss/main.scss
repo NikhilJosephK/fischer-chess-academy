@@ -346,6 +346,20 @@ a {
                         color: white;
                     }
                 }
+
+                .social-media {
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    gap: 20px;
+
+                    a {
+                        img {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
             }
 
         }

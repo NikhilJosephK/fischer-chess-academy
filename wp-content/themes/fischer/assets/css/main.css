@@ -308,5 +308,15 @@ a {
   font-size: 16px !important;
   color: white;
 }
+.fischer-footer .container .right-container .contact .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+.fischer-footer .container .right-container .contact .social-media a img {
+  width: 30px;
+  height: 30px;
+}
 
 /*# sourceMappingURL=main.css.map */
