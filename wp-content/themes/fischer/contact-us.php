@@ -28,7 +28,8 @@ Template Name: Contact Us
             </div>
             <div>
                 <img src="/wp-content/themes/fischer/assets/images/contact-us/fischer-address.svg" alt="">
-                <p>Kharghar, Navi Mumbai Maharashtra-410210</p>
+                <p>Kharghar, Navi Mumbai Maharashtra, 410210</p>
+                <p>Nerul, Navi Mumbai Maharashtra, 400706</p>
             </div>
         </div>
     </div>
