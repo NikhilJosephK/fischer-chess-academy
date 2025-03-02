@@ -2,6 +2,12 @@
   margin-top: 130px;
   margin-bottom: 100px;
 }
+@media (max-width: 768px) {
+  .fischer-blog-inner .container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
 .fischer-blog-inner .container .feature-image-wrapper {
   border-radius: 20px;
 }
@@ -23,6 +29,13 @@
   letter-spacing: 4px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .fischer-blog-inner .container .content h1 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 3px;
+  }
+}
 .fischer-blog-inner .container .content h2 {
   margin-block: 32px;
   font-family: "Poiret One";
@@ -31,6 +44,13 @@
   letter-spacing: 3px;
   text-align: left;
 }
+@media (max-width: 768px) {
+  .fischer-blog-inner .container .content h2 {
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 3px;
+  }
+}
 .fischer-blog-inner .container .content h3 {
   margin-block: 32px;
   font-family: "Poiret One";
@@ -38,6 +58,13 @@
   line-height: 48px;
   letter-spacing: 2px;
   text-align: left;
+}
+@media (max-width: 768px) {
+  .fischer-blog-inner .container .content h3 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3px;
+  }
 }
 .fischer-blog-inner .container .content h4 {
   margin-block: 32px;
