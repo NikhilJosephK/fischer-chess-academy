@@ -1,0 +1,144 @@
+.fischer-blog-inner {
+    .container {
+        margin-top: 130px;
+        margin-bottom: 100px;
+
+        .feature-image-wrapper {
+            border-radius: 20px;
+
+            img {
+                max-width: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .content {
+            max-width: 1000px;
+            margin-inline: auto;
+            margin-bottom: 100px;
+
+            h1 {
+                margin-block: 56px;
+                font-family: 'poiret one';
+                font-size: 64px;
+                line-height: 80px;
+                letter-spacing: 4px;
+                text-align: center;
+            }
+
+            h2 {
+                margin-block: 32px;
+                font-family: 'Poiret One';
+                font-size: 48px;
+                line-height: 64px;
+                letter-spacing: 3px;
+                text-align: left;
+            }
+
+            h3 {
+                margin-block: 32px;
+                font-family: 'Poiret One';
+                font-size: 36px;
+                line-height: 48px;
+                letter-spacing: 2px;
+                text-align: left;
+            }
+
+            h4 {
+                margin-block: 32px;
+                font-family: 'Poiret One';
+                font-size: 28px;
+                line-height: 40px;
+                letter-spacing: 1.5px;
+                text-align: left;
+            }
+
+            h5 {
+                margin-block: 32px;
+                font-family: 'Poiret One';
+                font-size: 22px;
+                line-height: 32px;
+                letter-spacing: 1px;
+                text-align: left;
+            }
+
+            h6 {
+                margin-block: 32px;
+                font-family: 'Poiret One';
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.5px;
+                text-align: left;
+            }
+
+            p {
+                margin-block: 40px;
+                font-family: 'poppins';
+                font-size: 20px;
+                line-height: 44px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                text-align: left;
+
+                a {
+                    font-family: 'poppins';
+                    font-size: 20px;
+                    line-height: 44px;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                    text-align: left;
+                    color: #FFAB00;
+                    filter: saturate(5);
+                }
+            }
+
+            ul,
+            ol {
+                margin-block: 40px;
+            }
+
+            li {
+                margin-block: 10px;
+                font-family: 'poppins';
+                font-size: 20px;
+                line-height: 44px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                text-align: left;
+            }
+        }
+
+        .publisher-wrapper {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+
+            .date,
+            .author {
+                font-family: 'poppins';
+                font-size: 14px;
+                line-height: 18px;
+                margin-top: 0;
+            }
+        }
+
+        .dots-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            div {
+                width: 20px;
+                height: 20px;
+                border-radius: 50px;
+                background-color: lightgray;
+            }
+        }
+
+    }
+}

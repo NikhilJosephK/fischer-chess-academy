@@ -89,6 +89,10 @@ function load_css()
     if (is_page_template('about-us.php')) {
         wp_enqueue_style('about-us', get_template_directory_uri() . '/assets/css/about-us.css');
     }
+    //blog inner
+    if (is_singular('blog')) {
+        wp_enqueue_style('single-blog', get_template_directory_uri() . '/assets/css/single-blog.css');
+    }
 }
 add_action('wp_enqueue_scripts', 'load_css');
 // CSS Ends here
