@@ -9,6 +9,7 @@ if (document.querySelector('.fischer-nav-mob')) {
     })();
 }
 
+// achievements page
 if (document.querySelector('.fischer-achievements')) {
     (function () {
         const gallery_items = document.querySelectorAll('.gallery-item');
@@ -47,6 +48,42 @@ if (document.querySelector('.fischer-achievements')) {
                 displayCards(start_limit, end_limit);
             }
         });
+
+    })();
+}
+
+//blog home page
+if (document.querySelector('.fischer-blog')) {
+    (function () {
+        const blogContainer = document.querySelector('.blog-container');
+        const loadMoreBtn = document.querySelector('.load-more-btn');
+        let num = 0;
+
+        async function createCard(pageNumber = 0) {
+            if (document.querySelector('.blog-card')) {
+                document.querySelectorAll('.blog-card').forEach(item => {
+                    item.remove();
+                })
+            }
+            const data = await fetch('http://localhost:8888/wp-json/wp/v2/blog?_fields=slug,featured_image_url,date,acf');
+            const response = await data.json();
+            console.log(response)
+            const card = document.createElement('div');
+            card.classList.add('blog-card');
+            card.innerHTML = `
+            <a style="background-image: url('${response?.[0]?.featured_image_url}');" href="${response?.[0]?.slug}">
+            <p class="blog-title">${response?.[0]?.acf?.blog_title}</p>
+            <p class="blog-publish-date">${response?.[0]?.date.split('T')[0]}</p>
+            </a>
+            `;
+            blogContainer.appendChild(card);
+        }
+        createCard();
+
+        loadMoreBtn.addEventListener('click', function () {
+            num++;
+            createCard(num)
+        })
 
     })();
 }

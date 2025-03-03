@@ -1,0 +1,31 @@
+.fischer-blog {
+  margin-top: 150px;
+  margin-bottom: 158px;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-blog {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+}
+.fischer-blog .container h1 {
+  font-family: "poiret one";
+  font-size: 96px;
+  font-weight: 300;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-blog .container h1 {
+    font-size: 72px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fischer-blog .container h1 {
+    font-size: 56px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+}
+
+/*# sourceMappingURL=archive-blog.css.map */

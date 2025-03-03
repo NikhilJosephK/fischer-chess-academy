@@ -93,6 +93,10 @@ function load_css()
     if (is_singular('blog')) {
         wp_enqueue_style('single-blog', get_template_directory_uri() . '/assets/css/single-blog.css');
     }
+    //blog inner
+    if (is_post_type_archive('blog')) {
+        wp_enqueue_style('archive-blog', get_template_directory_uri() . '/assets/css/archive-blog.css');
+    }
 }
 add_action('wp_enqueue_scripts', 'load_css');
 // CSS Ends here
@@ -141,3 +145,30 @@ function register_blog_post_type()
     register_post_type('blog', $args);
 }
 add_action('init', 'register_blog_post_type');
+
+// added support for featured image in rest api
+function add_featured_image_to_rest_api($data, $post, $context)
+{
+    $featured_image_id = get_post_thumbnail_id($post->ID);
+    if ($featured_image_id) {
+        $image = wp_get_attachment_image_src($featured_image_id, 'full'); // Get full-size image URL
+        if ($image) {
+            $data->data['featured_image_url'] = $image[0];
+        }
+    }
+    return $data;
+}
+
+// Make sure to use the correct custom post type slug ("blog" in your case)
+add_filter('rest_prepare_blog', 'add_featured_image_to_rest_api', 10, 3);
+
+// added support for acf fields in rest api
+function add_acf_fields_to_rest_api($data, $post, $context)
+{
+    $acf_fields = get_fields($post->ID);
+    if (!empty($acf_fields)) {
+        $data->data['acf'] = $acf_fields;
+    }
+    return $data;
+}
+add_filter('rest_prepare_blog', 'add_acf_fields_to_rest_api', 10, 3);

@@ -9,7 +9,11 @@ Template Name: Blog
 
 <section class="fischer-blog">
     <div class="container">
-        this is blog home page
+        <h1>
+            Blog
+        </h1>
+        <div class="blog-container"></div>
+        <button class="load-more-btn">Load More</button>
     </div>
 </section>
 
