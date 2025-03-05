@@ -56,8 +56,10 @@ if (document.querySelector('.fischer-achievements')) {
 if (document.querySelector('.fischer-blog')) {
     (function () {
         const blogContainer = document.querySelector('.blog-container');
-        const loadMoreBtn = document.querySelector('.load-more-btn');
+        const prevBtn = document.querySelector('.previous');
+        const nextBtn = document.querySelector('.next');
         const rippleLoader = document.querySelector('.lds-ripple');
+        const noMoreBlogs = document.querySelector('.no-more-blogs');
         let num = 1;
 
         async function createCard(pageNumber = 1) {
@@ -67,28 +69,45 @@ if (document.querySelector('.fischer-blog')) {
                 })
             }
             rippleLoader.style.display = 'flex';
-            const data = await fetch(`http://localhost:8888/wp-json/wp/v2/blog?_fields=slug,featured_image_url,date,acf&per_page=2&page=${pageNumber}`);
+            const data = await fetch(`http://localhost:8888/wp-json/wp/v2/blog?_fields=slug,featured_image_url,date,acf&per_page=9&page=${pageNumber}`);
             const response = await data.json();
 
-            loadMoreBtn.style.display = response.length > 0 ? 'block' : 'none';
+            [prevBtn, nextBtn].forEach(item => {
+                item.style.display = response.length > 0 ? 'block' : 'none';
+            });
+
+            noMoreBlogs.style.display = response.length > 0 ? 'none' : 'block'
+
+            if (pageNumber === 1) {
+                prevBtn.style.display = 'none';
+            } else {
+                prevBtn.style.display = 'block';
+            }
+
             rippleLoader.style.display = response.length !== 0 ? 'none' : 'flex';
 
-            response?.forEach(item => {
-                const card = document.createElement('div');
-                card.classList.add('blog-card');
-                card.innerHTML = `
-                <a style="background-image: url('${item?.featured_image_url}');" href="${item?.slug}">
-                <p class="blog-title">${item?.acf?.blog_title}</p>
-                <p class="blog-publish-date">${item?.date.split('T')[0]}</p>
-                </a>
-                `;
-                blogContainer.appendChild(card);
-            })
+            if (response.length > 0) {
+                response.forEach(item => {
+                    const card = document.createElement('div');
+                    card.classList.add('blog-card');
+                    card.innerHTML = `
+        <a style="background-image: url('${item?.featured_image_url}');" href="${item?.slug}">
+        <p class="blog-title">${item?.acf?.blog_title}</p>
+        <p class="blog-publish-date">${item?.date.split('T')[0]}</p>
+        </a>
+        `;
+                    blogContainer.appendChild(card);
+                })
+            }
         }
         createCard();
 
-        loadMoreBtn.addEventListener('click', function () {
+        nextBtn.addEventListener('click', function () {
             num++;
+            createCard(num)
+        })
+        prevBtn.addEventListener('click', function () {
+            num--;
             createCard(num)
         })
 
