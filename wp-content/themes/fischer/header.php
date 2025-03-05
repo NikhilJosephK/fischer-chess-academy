@@ -22,6 +22,14 @@
                 <a href="/about-us/">ABOUT</a>
                 <a href="/achievements/">ACHIEVEMENTS</a>
                 <a href="/contact-us/">CONTACT US</a>
+                <div class="resources-wrapper">
+                    <p class="resources">RESOURCES</p>
+                    <div class="resources-inner-wrapper">
+                        <a href="/blog/">BLOG</a>
+                        <!-- <hr /> -->
+                        <!-- <a href="/blog/">PDF</a> -->
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -37,6 +45,14 @@
                 <li><a href="/about-us/">ABOUT</a></li>
                 <li><a href="/achievements/">ACHIEVEMENTS</a></li>
                 <li><a href="/contact-us/">CONTACT US</a></li>
+                <li class="mob-resources">
+                    <p>RESOURCES</p>
+                    <div class="mob-resources-wrapper">
+                        <a href="/blog/">BLOG</a>
+                        <!-- <a href="/pdf/">PDF</a> -->
+                    </div>
+                </li>
+
             </ul>
         </nav>
     </section>

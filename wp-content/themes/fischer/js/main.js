@@ -1,3 +1,13 @@
+//mob nav tab issue
+(function () {
+    const resourcesTab = document.querySelector('.mob-resources');
+    const mobResourcesWrapper = document.querySelector('.mob-resources-wrapper');
+
+    resourcesTab.addEventListener('click', function () {
+        mobResourcesWrapper.classList.toggle('active');
+    })
+})();
+
 if (document.querySelector('.fischer-nav-mob')) {
     (function () {
         document.querySelector('.hamburger-menu').addEventListener('click', function (event) {

@@ -78,17 +78,44 @@ a {
   left: -10px;
   width: 52px;
 }
-.fischer-nav > .container .nav-items a {
+.fischer-nav > .container .nav-items a,
+.fischer-nav > .container .nav-items .resources {
   text-decoration: none;
   color: black;
   margin-bottom: 0;
   font-family: "syne";
-  font-size: 16px;
+  font-size: 16px !important;
   font-weight: 500;
   transition: all 300ms;
+  margin-top: 0;
 }
-.fischer-nav > .container .nav-items a:hover {
+.fischer-nav > .container .nav-items a:hover,
+.fischer-nav > .container .nav-items .resources:hover {
   transform: scale(0.9);
+  cursor: pointer;
+}
+.fischer-nav > .container .nav-items .resources-wrapper {
+  position: relative;
+}
+.fischer-nav > .container .nav-items .resources-wrapper .resources-inner-wrapper {
+  display: none;
+  background-color: #FFAB00;
+  padding: 20px;
+  position: absolute;
+  top: 18px;
+  width: 100%;
+  right: -19px;
+  border-radius: 20px;
+}
+.fischer-nav > .container .nav-items .resources-wrapper .resources-inner-wrapper a {
+  display: block;
+  text-align: center;
+}
+.fischer-nav > .container .nav-items .resources-wrapper .resources-inner-wrapper hr {
+  border: 1px solid black;
+}
+.fischer-nav > .container .nav-items .resources-wrapper:hover .resources-inner-wrapper {
+  display: block;
 }
 
 .fischer-nav-mob {
@@ -179,6 +206,20 @@ a {
 .fischer-nav-mob .mobile-menu li a {
   text-decoration: none;
   color: black;
+}
+.fischer-nav-mob .mob-resources p {
+  margin: 0;
+}
+.fischer-nav-mob .mob-resources-wrapper {
+  display: none;
+}
+.fischer-nav-mob .mob-resources-wrapper a {
+  display: block;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.fischer-nav-mob .active {
+  display: block;
 }
 .fischer-nav-mob .mobile-menu {
   top: 0;

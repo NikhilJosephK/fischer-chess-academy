@@ -85,19 +85,55 @@ a {
                 width: 52px;
             }
 
-            a {
+            a,
+            .resources {
                 text-decoration: none;
                 color: black;
                 margin-bottom: 0;
                 font-family: 'syne';
-                font-size: 16px;
+                font-size: 16px !important;
                 font-weight: 500;
                 transition: all 300ms;
+                margin-top: 0;
             }
 
-            a:hover {
+            a:hover,
+            .resources:hover {
                 transform: scale(.9);
+                cursor: pointer;
             }
+
+            .resources-wrapper {
+                position: relative;
+
+                .resources-inner-wrapper {
+                    display: none;
+                    background-color: #FFAB00;
+                    padding: 20px;
+                    position: absolute;
+                    top: 18px;
+                    width: 100%;
+                    right: -19px;
+                    border-radius: 20px;
+
+                    a {
+                        display: block;
+                        text-align: center;
+                    }
+
+                    hr {
+                        border: 1px solid black;
+                    }
+
+                }
+            }
+
+            .resources-wrapper:hover {
+                .resources-inner-wrapper {
+                    display: block;
+                }
+            }
+
         }
     }
 }
@@ -199,6 +235,25 @@ a {
         text-decoration: none;
         color: black;
     }
+
+    .mob-resources p {
+        margin: 0;
+    }
+
+    .mob-resources-wrapper {
+        display: none;
+
+        a {
+            display: block;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    }
+
+    .active {
+        display: block;
+    }
+
 
     /*---------------------
         	Mobiles Menu - Slide IN 
