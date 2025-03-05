@@ -69,7 +69,7 @@ if (document.querySelector('.fischer-blog')) {
                 })
             }
             rippleLoader.style.display = 'flex';
-            const data = await fetch(`http://localhost:8888/wp-json/wp/v2/blog?_fields=slug,featured_image_url,date,acf&per_page=9&page=${pageNumber}`);
+            const data = await fetch(`http://fischerchess.in/wp-json/wp/v2/blog?_fields=slug,featured_image_url,date,acf&per_page=9&page=${pageNumber}`);
             const response = await data.json();
 
             [prevBtn, nextBtn].forEach(item => {
