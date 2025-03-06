@@ -55,8 +55,10 @@ Template Name: About Us
                         MANDAR SHIRASKAR (STATE PLAYER)
                     </p>
                     <p class="description">
-                        EXPERT FOR INTERMEDIATE AND ADVANCED
-                        5 YEARS OF COACHING EXPERIENCE
+                        Senior national arbiter
+                        State player
+                        10 years of experience
+                        Coach for Inter & Advance level
                     </p>
                 </div>
                 <div class="inner-wrapper">
@@ -64,7 +66,8 @@ Template Name: About Us
                         HEMANT VAIDYA
                     </p>
                     <p class="description">
-                        EXPERT TO TEACH INTERMEDIATE 4 YEARS OF COACHING EXPERIENCE
+                        5 years of Experience,
+                        Coach for Basic level
                     </p>
                 </div>
                 <div class="inner-wrapper">
@@ -73,8 +76,9 @@ Template Name: About Us
                         YOGESH BANE
                     </p>
                     <p class="description">
-                        EXPERT TO TEACH FOR BASIC AND INTERMEDIATE
-                        5 YEAR OF EXPERIENCE
+                        National arbiter
+                        5 years of experience
+                        Coach for Inter level & basic level
                     </p>
                 </div>
                 <div class="inner-wrapper">
@@ -83,7 +87,9 @@ Template Name: About Us
                         GAURAV LAIGUDE
                     </p>
                     <p class="description">
-                        EXPERT FOR ABSOLUTE BEGINNER 3 YEAR COACHING EXPERIENCE
+                        FIDE rated player
+                        5 years of experience
+                        Coach for Inter level & basic level
                     </p>
                 </div>
                 <div class="inner-wrapper">
@@ -91,8 +97,22 @@ Template Name: About Us
                         BHUPESH GADE
                     </p>
                     <p class="description">
-                        EXPERT FOR INTERMEDIATE AND ADVANCED
-                        FIDE INTERNATIONAL RATED 10 YEARS OF EXPERIENCE
+                        FIDE rated player
+                        Senior national arbiter
+                        10 years of experience
+                        Coach for Inter & Advance level
+                    </p>
+                </div>
+                <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/Krutika Pustake.jpg" alt="KRUTIKA PUSTAKE">
+                    <p class="title">
+                        KRUTIKA PUSTAKE
+                    </p>
+                    <p class="description">
+                        FIDE rated player
+                        Senior national arbiter
+                        3 years of experience
+                        Coach for Inter level
                     </p>
                 </div>
                 <div class="inner-wrapper">
@@ -101,8 +121,20 @@ Template Name: About Us
                         RAVINDRA BAWLEKAR
                     </p>
                     <p class="description">
-                        EXPERT FOR INTERMEDIATE AND ADVANCED
-                        4 YEARS OF COACHING EXPERIENCE
+                        EXPERT FOR INTERMEDIATE AND ADVANCED,
+                        6 years of experience
+                    </p>
+                </div>
+                <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/Abhishek Gupta.jpeg" alt="ABHISHEK GUPTA">
+                    <p class="title">
+                        ABHISHEK GUPTA
+                    </p>
+                    <p class="description">
+                        FIDE rated player
+                        Senior national arbiter
+                        3 years of experience
+                        Coach for Inter level
                     </p>
                 </div>
                 <div class="inner-wrapper">
@@ -111,7 +143,8 @@ Template Name: About Us
                         KULDEEP DHAS
                     </p>
                     <p class="description">
-                        EXPERT TO TEACH FOR BASIC 2 YEAR OF EXPERIENCE
+                        Senior national arbiter
+                        3 years of experience
                     </p>
                 </div>
                 <div class="inner-wrapper">

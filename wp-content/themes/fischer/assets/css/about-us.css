@@ -40,6 +40,7 @@
   text-align: center;
   padding-block: 40px;
   padding-inline: 15px;
+  margin-top: 0;
 }
 @media screen and (max-width: 640px) {
   .fischer-about-us .container .quote p {
@@ -169,12 +170,13 @@
   font-size: 16px;
   font-family: "poppins";
   font-weight: 200;
-  line-height: 24px;
+  line-height: 34px;
   color: black;
   margin-top: 10px;
   -webkit-text-stroke: 1px black;
   text-align: center;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=about-us.css.map */
