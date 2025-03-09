@@ -1,0 +1,78 @@
+.fischer-pdf-library {
+  margin-top: 150px;
+  margin-bottom: 158px;
+}
+@media screen and (max-width: 1024px) {
+  .fischer-pdf-library {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+}
+.fischer-pdf-library .container h1 {
+  font-family: "poiret one";
+  font-size: 96px;
+  font-weight: 300;
+}
+@media screen and (max-width: 768px) {
+  .fischer-pdf-library .container h1 {
+    font-size: 56px;
+  }
+}
+.fischer-pdf-library .container .pdf-content-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .fischer-pdf-library .container .pdf-content-container {
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 640px) {
+  .fischer-pdf-library .container .pdf-content-container {
+    margin-top: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.fischer-pdf-library .container .pdf-content-container p {
+  height: 200px;
+  border: 1px solid #FFAB00;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 40px 10px;
+  border-radius: 10px;
+  position: relative;
+  counter-increment: pdf-counter;
+  background-image: url("/wp-content/themes/fischer/assets/images/pdf-library/fischer-pdf-library.png");
+  background-position: top;
+  background-size: cover;
+  border: 0;
+}
+.fischer-pdf-library .container .pdf-content-container p a {
+  text-align: center;
+  line-height: 30px;
+  font-family: "poppins";
+  font-size: 12px;
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  display: block;
+}
+.fischer-pdf-library .container .pdf-content-container p:before {
+  content: counter(pdf-counter);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "poiret one";
+  font-size: 24px;
+  -webkit-text-stroke: 1px;
+}
+.fischer-pdf-library .container .pdf-content-container p:not(:has(a)) {
+  display: none;
+}
+
+/*# sourceMappingURL=pdf-library.css.map */

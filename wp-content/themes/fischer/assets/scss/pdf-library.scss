@@ -1,0 +1,81 @@
+.fischer-pdf-library {
+    margin-top: 150px;
+    margin-bottom: 158px;
+
+    @media screen and (max-width: 1024px) {
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+
+    .container {
+        h1 {
+            font-family: 'poiret one';
+            font-size: 96px;
+            font-weight: 300;
+
+            @media screen and (max-width: 768px) {
+                font-size: 56px;
+            }
+        }
+
+        .pdf-content-container {
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+            @media screen and (max-width: 768px) {
+                margin-top: 50px;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media screen and (max-width: 640px) {
+                margin-top: 50px;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            p {
+                height: 200px;
+                border: 1px solid #FFAB00;
+                display: flex;
+                align-items: end;
+                justify-content: center;
+                padding: 40px 10px;
+                border-radius: 10px;
+                position: relative;
+                counter-increment: pdf-counter;
+                background-image: url('/wp-content/themes/fischer/assets/images/pdf-library/fischer-pdf-library.png');
+                background-position: top;
+                background-size: cover;
+                border: 0;
+
+                a {
+                    text-align: center;
+                    line-height: 30px;
+                    font-family: 'poppins';
+                    font-size: 12px;
+                    color: black;
+                    text-decoration: underline;
+                    text-underline-offset: 3px;
+                    display: block;
+                }
+            }
+
+            p:before {
+                content: counter(pdf-counter);
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'poiret one';
+                font-size: 24px;
+                -webkit-text-stroke: 1px;
+
+            }
+
+            p:not(:has(a)) {
+                display: none;
+            }
+        }
+    }
+}

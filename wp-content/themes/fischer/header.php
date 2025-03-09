@@ -26,8 +26,8 @@
                     <p class="resources">RESOURCES</p>
                     <div class="resources-inner-wrapper">
                         <a href="/blog/">BLOG</a>
-                        <!-- <hr /> -->
-                        <!-- <a href="/pdf-library/">PDF LIBRARY</a> -->
+                        <hr />
+                        <a href="/pdf-library/">PDF</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     <p>RESOURCES</p>
                     <div class="mob-resources-wrapper">
                         <a href="/blog/">BLOG</a>
-                        <!-- <a href="/pdf-library/">PDF LIBRARY</a> -->
+                        <a href="/pdf-library/">PDF</a>
                     </div>
                 </li>
 

@@ -76,7 +76,6 @@ function load_css()
         wp_register_style('front-page', get_template_directory_uri() . '/assets/css/front-page.css', array(), false, 'all');
         wp_enqueue_style('front-page');
     }
-
     //contact us
     if (is_page_template('contact-us.php')) {
         wp_enqueue_style('contact-us', get_template_directory_uri() . '/assets/css/contact-us.css');
@@ -88,6 +87,10 @@ function load_css()
     //about us
     if (is_page_template('about-us.php')) {
         wp_enqueue_style('about-us', get_template_directory_uri() . '/assets/css/about-us.css');
+    }
+    //pdf library
+    if (is_page_template('pdf-library.php')) {
+        wp_enqueue_style('pdf-library', get_template_directory_uri() . '/assets/css/pdf-library.css');
     }
     //blog inner
     if (is_singular('blog')) {
