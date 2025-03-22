@@ -18,10 +18,10 @@
         <div class="container">
             <div class="nav-items">
                 <img src="/wp-content/themes/fischer/assets/images/header/fischer-logo-header.png" alt="fischer logo">
-                <a href="/">HOME</a>
-                <a href="/about-us/">ABOUT</a>
-                <a href="/achievements/">ACHIEVEMENTS</a>
-                <a href="/contact-us/">CONTACT US</a>
+                <a class="header-home" href="/">HOME</a>
+                <a class="header-about" href="/about-us/">ABOUT</a>
+                <a class="header-achievements" href="/achievements/">ACHIEVEMENTS</a>
+                <a class="header-contact-us" href="/contact-us/">CONTACT US</a>
                 <div class="resources-wrapper">
                     <p class="resources">RESOURCES</p>
                     <div class="resources-inner-wrapper">

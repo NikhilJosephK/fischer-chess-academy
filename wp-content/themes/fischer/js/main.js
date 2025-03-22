@@ -8,6 +8,7 @@
     })
 })();
 
+// mob nav
 if (document.querySelector('.fischer-nav-mob')) {
     (function () {
         document.querySelector('.hamburger-menu').addEventListener('click', function (event) {
@@ -18,6 +19,54 @@ if (document.querySelector('.fischer-nav-mob')) {
 
     })();
 }
+
+// show active state on header
+(function () {
+    const headerHome = document.querySelector('.header-home');
+    const headerAbout = document.querySelector('.header-about');
+    const headerAchievements = document.querySelector('.header-achievements');
+    const headerContactUs = document.querySelector('.header-contact-us');
+    const resources = document.querySelector('.resources');
+
+    const headerElements = [
+        {
+            id: 1,
+            url: "/",
+            element: headerHome
+        },
+        {
+            id: 2,
+            url: "/about-us/",
+            element: headerAbout
+        },
+        {
+            id: 3,
+            url: "/achievements/",
+            element: headerAchievements
+        },
+        {
+            id: 4,
+            url: "/contact-us/",
+            element: headerContactUs
+        },
+        {
+            id: 5,
+            url: "/blog/",
+            element: resources
+        },
+        {
+            id: 6,
+            url: "/pdf-library/",
+            element: resources
+        },
+    ];
+
+    headerElements.forEach(item => {
+        if (item.element.style.textDecoration !== 'underline') {
+            item.element.style.textDecoration = window.location.pathname === item.url ? 'underline' : 'none';
+        }
+    });
+})();
 
 // achievements page
 if (document.querySelector('.fischer-achievements')) {
