@@ -105,7 +105,7 @@ Template Name: Achievements
         </div>
 
         <div class="more-container">
-            <a href="https://www.instagram.com/fischerchessindia/?hl=en">Click here to see more achievements of our students</a>
+                      <a rel='noopener noreferrer' target="_blank" href="https://www.instagram.com/fischerchessindia/?hl=en">Click here to see more achievements of our students</a>
         </div>
 
 
