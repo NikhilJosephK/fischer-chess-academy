@@ -62,9 +62,7 @@ a {
     }
 
     >.container {
-        background-color: #FFAB00;
-        padding-block: 20px;
-        border-radius: 50px;
+
         position: fixed;
         transform: translate(-50%, -50%);
         top: 70px;
@@ -73,6 +71,9 @@ a {
         width: 100%;
 
         .nav-items {
+            padding-block: 20px;
+            border-radius: 50px;
+            background-color: #FFAB00;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -81,7 +82,7 @@ a {
 
             img {
                 position: absolute;
-                left: -10px;
+                left: 5px;
                 width: 52px;
             }
 
