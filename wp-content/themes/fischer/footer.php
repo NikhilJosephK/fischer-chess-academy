@@ -1,6 +1,7 @@
 <section class="fischer-footer">
     <div class="container">
         <div class="left-container">
+            <img src="/wp-content/themes/fischer/assets/images/header/fischer-logo-header.png" alt="fischer logo">
             <a href="/">Fischer <br /> Chess Academy</a>
         </div>
         <div class="right-container">

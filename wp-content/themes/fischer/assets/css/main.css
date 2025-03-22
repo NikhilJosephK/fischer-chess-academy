@@ -293,10 +293,18 @@ a {
     gap: 50px;
   }
 }
+.fischer-footer .container .left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 @media screen and (max-width: 1024px) {
   .fischer-footer .container .left-container {
     margin-right: auto;
   }
+}
+.fischer-footer .container .left-container img {
+  width: 70px;
 }
 .fischer-footer .container .left-container a {
   font-family: "syne";
