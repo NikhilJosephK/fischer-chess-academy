@@ -150,7 +150,7 @@ if (document.querySelector('.fischer-blog')) {
                     const card = document.createElement('div');
                     card.classList.add('blog-card');
                     card.innerHTML = `
-        <a style="background-image: url('${item?.featured_image_url}');" href="${item?.slug}">
+        <a target="_blank" rel='noopener noreferrer' style="background-image: url('${item?.featured_image_url}');" href="${item?.slug}">
         <p class="blog-title">${item?.acf?.blog_title}</p>
         <p class="blog-publish-date">${item?.date.split('T')[0]}</p>
         </a>
