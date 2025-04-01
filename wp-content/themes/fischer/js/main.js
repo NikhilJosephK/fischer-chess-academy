@@ -64,6 +64,7 @@ if (document.querySelector('.fischer-nav-mob')) {
     headerElements.forEach(item => {
         if (item.element.style.textDecoration !== 'underline') {
             item.element.style.textDecoration = window.location.pathname === item.url ? 'underline' : 'none';
+            item.element.style.textUnderlineOffset = window.location.pathname === item.url ? '3px' : '0';
         }
     });
 })();
@@ -150,11 +151,11 @@ if (document.querySelector('.fischer-blog')) {
                     const card = document.createElement('div');
                     card.classList.add('blog-card');
                     card.innerHTML = `
-        <a target="_blank" rel='noopener noreferrer' style="background-image: url('${item?.featured_image_url}');" href="${item?.slug}">
-        <p class="blog-title">${item?.acf?.blog_title}</p>
-        <p class="blog-publish-date">${item?.date.split('T')[0]}</p>
-        </a>
-        `;
+                    <a target="_blank" rel='noopener noreferrer' style="background-image: url('${item?.featured_image_url}');" href="${item?.slug}">
+                    <p class="blog-title">${item?.acf?.blog_title}</p>
+                    <p class="blog-publish-date">${item?.date.split('T')[0]}</p>
+                    </a>
+                    `;
                     blogContainer.appendChild(card);
                 })
             }

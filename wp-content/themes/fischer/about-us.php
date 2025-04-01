@@ -93,6 +93,7 @@ Template Name: About Us
                     </p>
                 </div>
                 <div class="inner-wrapper">
+                    <img src="/wp-content/themes/fischer/assets/images/about-us/bhupesh.jpeg" alt="BHUPESH">
                     <p class="title">
                         BHUPESH GADE
                     </p>
