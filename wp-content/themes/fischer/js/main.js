@@ -1,3 +1,10 @@
+(function () {
+    if (window.location.pathname !== '/') {
+        document.querySelector('.header-buy-book').setAttribute('href', 'https://www.amazon.in/CHESS-JOURNAL-NOTATION-BOOK-MARKANDAY/dp/933418471X/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.aNJvxOPSSLZKgdO8xqv7P5wl36FzNZQKDhcEkXKGheLwz4bILp0MglhoUOG4RAP5DPA_WJ69JCvZvij2zwjeByooW0UdjppjQPYh3qu9RGOuBau9O_wEgbRjM2ItYQtdwEtwjjLDaDo3h8rQ3-UFqMwI4H1SROJtzi-VuK6cy5SAsWn_iyHumlsbQuvogw9BiIcOd5H6XqlPf_aWski8hXYP_tkehghsovmHIWZzy2I.lrjInYXaybjdHx2c-Wh1f22HyL3VkzODnRYUlLpYXow&qid=1740031509&sr=8-1');
+    }
+
+}())
+
 // mob nav
 if (document.querySelector('.fischer-nav-mob')) {
     (function () {
