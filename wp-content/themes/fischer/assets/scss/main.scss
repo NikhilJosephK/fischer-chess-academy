@@ -104,6 +104,30 @@ a {
                 cursor: pointer;
             }
         }
+
+        .header-social-media {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 10px;
+            margin-top: 5px;
+            padding: 0 1px 0 3px;
+            border-radius: 50px;
+            background-color: #2C2C2C;
+            width: fit-content;
+            margin-inline: auto;
+
+            a {
+                display: flex;
+            }
+
+            a:not(:nth-child(3)) {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
     }
 }
 
