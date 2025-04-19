@@ -19,17 +19,20 @@ Template Name: Contact Us
         </div>
         <div class="address-container">
             <div>
-                <img src="/wp-content/themes/fischer/assets/images/contact-us/tele.svg" alt="">
-                <p>+91 985737 92023</p>
+                 <img src="/wp-content/themes/fischer/assets/images/contact-us/fischer-address.svg" alt="">
+                 <p>Kharghar, Navi Mumbai Maharashtra, 410210</p>
+                <p>+91 9920254240</p>
+                <p>+91 7977075421</p>
+            </div>
+            <div>
+                <img src="/wp-content/themes/fischer/assets/images/contact-us/fischer-address.svg" alt="">
+                <p>Nerul, Navi Mumbai Maharashtra, 400706</p>
+                <p>+91 7777097875</p>
+                <p>+91 8356922283</p>
             </div>
             <div>
                 <img src="/wp-content/themes/fischer/assets/images/contact-us/fischer-mail.svg" alt="">
                 <p>fischerchessmumbai@gmail.com</p>
-            </div>
-            <div>
-                <img src="/wp-content/themes/fischer/assets/images/contact-us/fischer-address.svg" alt="">
-                <p>Kharghar, Navi Mumbai Maharashtra, 410210</p>
-                <p>Nerul, Navi Mumbai Maharashtra, 400706</p>
             </div>
         </div>
     </div>

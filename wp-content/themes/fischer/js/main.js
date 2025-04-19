@@ -1,13 +1,3 @@
-//mob nav tab issue
-(function () {
-    const resourcesTab = document.querySelector('.mob-resources');
-    const mobResourcesWrapper = document.querySelector('.mob-resources-wrapper');
-
-    resourcesTab.addEventListener('click', function () {
-        mobResourcesWrapper.classList.toggle('active');
-    })
-})();
-
 // mob nav
 if (document.querySelector('.fischer-nav-mob')) {
     (function () {
@@ -26,7 +16,9 @@ if (document.querySelector('.fischer-nav-mob')) {
     const headerAbout = document.querySelector('.header-about');
     const headerAchievements = document.querySelector('.header-achievements');
     const headerContactUs = document.querySelector('.header-contact-us');
-    const resources = document.querySelector('.resources');
+    const headerBlog = document.querySelector('.header-blog');
+    const headerPDF = document.querySelector('.header-pdf-library');
+    // const resources = document.querySelector('.resources');
 
     const headerElements = [
         {
@@ -52,12 +44,12 @@ if (document.querySelector('.fischer-nav-mob')) {
         {
             id: 5,
             url: "/blog/",
-            element: resources
+            element: headerBlog
         },
         {
             id: 6,
             url: "/pdf-library/",
-            element: resources
+            element: headerPDF
         },
     ];
 

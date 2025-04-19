@@ -99,7 +99,7 @@
         </div>
 
         <!-- section-4 -->
-        <div class="section-4">
+        <div class="section-4" id="buybook">
             <h2>SPOTLIGHT</h2>
             <div class="book-wrapper">
                 <div class="book">

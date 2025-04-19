@@ -108,7 +108,7 @@ add_action('wp_enqueue_scripts', 'load_css');
 function load_js()
 {
     //  this line will automatically add all the jquery files needed automatically no need of js folders or files
-    wp_enqueue_script('jquery');
+    // wp_enqueue_script('jquery');
 
     //main.js
     wp_register_script('main', get_template_directory_uri() . '/js/main.js', 'jquery', false, true);

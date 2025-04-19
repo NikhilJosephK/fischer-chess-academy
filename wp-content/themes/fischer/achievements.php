@@ -10,6 +10,9 @@ Template Name: Achievements
         <h1>
             Achievements
         </h1>
+        <div class="more-container">
+                      <a rel='noopener noreferrer' target="_blank" href="https://www.instagram.com/fischerchessindia/?hl=en">Click here to see more achievements of our students</a>
+        </div>
         <div class="gallery-container">
             <?php
             function display_post_images_as_gallery($post_id)
@@ -103,11 +106,6 @@ Template Name: Achievements
                 <img data-next="next" src="/wp-content/themes/fischer/assets/images/achievements/fischer-next-arrow.svg" alt="Right Arrow">
             </button>
         </div>
-
-        <div class="more-container">
-                      <a rel='noopener noreferrer' target="_blank" href="https://www.instagram.com/fischerchessindia/?hl=en">Click here to see more achievements of our students</a>
-        </div>
-
 
     </div>
 </section>

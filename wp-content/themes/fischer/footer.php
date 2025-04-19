@@ -23,7 +23,7 @@
                     <a href="https://www.facebook.com/fischerchessindia/"><img src="/wp-content/themes/fischer/assets/images/footer/fishcer-fb.svg" alt="facebook"></a>
                     <a href="https://www.instagram.com/fischerchessindia/?hl=en"><img src="/wp-content/themes/fischer/assets/images/footer/fischer-instagram.svg" alt="instagram"></a>
                     <a href="https://wa.me/9920254240"><img src="/wp-content/themes/fischer/assets/images/footer/fischer-whatsapp.svg" alt="whatsapp"></a>
-                    <a href="https://youtu.be/R_ADzLP8pVA?si=dZwa6W5DRwVnubji"><img src="/wp-content/themes/fischer/assets/images/footer/fischer-youtube.svg" alt="youtube"></a>
+                    <a target="_blank" href="https://youtu.be/R_ADzLP8pVA?si=dZwa6W5DRwVnubji"><img src="/wp-content/themes/fischer/assets/images/footer/fischer-youtube.svg" alt="youtube"></a>
                 </div>
                 <div>
                     <img src="/wp-content/themes/fischer/assets/images/footer/fca-footer-email-icon.svg" alt="">

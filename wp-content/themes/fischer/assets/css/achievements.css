@@ -12,11 +12,11 @@
   font-family: "poiret one";
   font-size: 96px;
   font-weight: 300;
+  text-align: center;
 }
 @media screen and (max-width: 1024px) {
   .fischer-achievements .container h1 {
     font-size: 72px;
-    text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
